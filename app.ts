@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //OBJECT TYPE SIMPLE
 // let student : {name:string,age:number} = {name:"ali",age:30};
@@ -43,3 +44,12 @@ const user:User = {
 user.email="ali@gmail.com";
 
 user.id=321;
+=======
+// let tupleName: [type1,type2,...]= [value1,valu2,...];
+
+let person:[string,number]=["ali",20];
+
+console.log(person[0]);
+console.log(person[1]);
+
+>>>>>>> 7da7c133d60ba3931dcc5609db2d5c05b73b19c9
