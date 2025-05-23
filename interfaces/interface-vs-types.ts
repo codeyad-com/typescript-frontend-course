@@ -64,3 +64,20 @@ const user: User = {
     }
 };
 
+
+interface Rectangle{
+    width: number;
+    height: number;
+}
+
+
+interface ColoredRectangle extends Rectangle{
+    color: string;
+    size?:number;
+}
+
+const rectangle: ColoredRectangle = {width:10,height:20,color:"red"};
+
+
+
+
